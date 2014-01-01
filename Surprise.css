@@ -584,7 +584,12 @@ body {
 
 
 /* start of my stuff */
+.footer {
+  height: 100px;
+  text-align: center;
+  background-color: gray;
 
+}
 
 h1 {
   font-family: Arial, sans-serif;
@@ -623,6 +628,17 @@ h2 {
   background-color: green;
 }
 
+.placeholder1 {
+  min-height: 48px;
+  border: 5px black;
+}
+
+.placeholder2 {
+  min-height: 36px;
+  border: 5px black;
+}
+
+
 .text_1, .text_3 {
   min-height: 500px;
   font-size: 24px;
@@ -630,6 +646,7 @@ h2 {
   border: 2px;
   border-color: black;
   background-color: red;
+  vertical-align: bottom;
 }
 
 .text_2 {
@@ -639,14 +656,20 @@ h2 {
   border: 2px;
   border-color: black;
   background-color: blue;
+  vertical-align: bottom;
 }
 
-.footer {
-  height: 100px;
-  text-align: center;
-  background-color: gray;
-
+.tooltip {
+  display:none;
+  position:absolute;
+  border:1px solid #333;
+  background-color:#161616;
+  border-radius:5px;
+  padding:10px;
+  color:#fff;
+  font-size:12px Arial;
 }
+
 
 
 
