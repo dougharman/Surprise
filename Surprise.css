@@ -590,7 +590,12 @@ body {
 }
 
 .footer {
-  height: 100px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  height: 50px;
   text-align: center;
   background-color: gray;
 
@@ -650,7 +655,7 @@ h2 {
   text-align: center;
   border: 2px;
   border-color: black;
-  background-color: red;
+  background-color: blue;
   vertical-align: bottom;
 }
 
@@ -665,14 +670,13 @@ h2 {
 }
 
 .tooltip {
-  display:none;
-  position:absolute;
+  display: none;
+  position: absolute;
   border: 2px white;
   background-color: black;
-  border-radius:1px;
-  padding:10px;
+  border-radius: 1px;
   color: white;
-  font-size:12px Arial;
+  font-size: 12px Arial;
 }
 
 

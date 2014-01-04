@@ -31,3 +31,12 @@ div img {
   display: none;
 }
 
+.tooltip {
+  display: none;
+  position: absolute;
+  border: 2px white;
+  background-color: black;
+  border-radius: 1px;
+  color: white;
+  font-size: 12px Arial;
+}

@@ -1,7 +1,7 @@
 $(document).ready(function () {
    
     $(".text_1").fadeIn(3000);
-    $(".surprise").delay(3000).fadeIn(3000);
+    $(".surprise").fadeIn(3000);
     $(".jib").delay(4000).fadeIn(3000);
 
     setInterval(function () {
