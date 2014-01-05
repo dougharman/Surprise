@@ -3,17 +3,25 @@ body {
 }
 
 h1 {
-  font-family: Times, serif;
-  font-size: 36px;
-  color: blue;
+  font-family: 'Diplomata SC', cursive;
+  font-size: 48px;
+  color: #990000;
   text-align: center;
 }
 
 h2 {
-  font-family: Times, serif;
-  font-size: 24px;
-  color: red;
+  font-family: 'Spirax', cursive;
+  font-size: 36px;
+  color: solid black;
   text-align: center;
+}
+
+h3 {
+  font-family: 'Jacques Francois Shadow', cursive;
+  font-size: 18px;
+  color: black;
+  text-align: center;
+  vertical-align: middle;
 }
 
 div { 

@@ -1,83 +1,96 @@
 <!DOCTYPE html>
 <head>
+	<link href='http://fonts.googleapis.com/css?family=Diplomata+SC|Jacques+Francois+Shadow|Spirax|Diplomata' rel='stylesheet' type='text/css'>
 	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
     <link type="text/css" rel="stylesheet" href="Nav3.css">
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
-    <script language="javascript" content-type="application/javascript" src="Surprise.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js">
+	function $init() {return true;}
+	</script>
+    <script language="javascript" content-type="application/javascript" src="Surprise.js">
+    </script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script src="jquery.mosaicflow.min.js"></script>
-	
+	<style>
+		.mosaicflow__column {
+			float:left;
+			}
+
+		.mosaicflow__item {
+			position:relative;
+			}
+			.mosaicflow__item img {
+				display:block;
+				width:100%;
+				max-width:500px;
+				height:auto;
+				}
+			.mosaicflow__item p {
+				position:absolute;
+				bottom:0;
+				left:0;
+				width:100%;
+				margin:0;
+				padding:5px;
+				background:hsla(0,0%,0%,.5);
+				color:#fff;
+				font-size:14px;
+				text-shadow:1px 1px 1px hsla(0,0%,0%,.75);
+				opacity:0;
+				-webkit-transition: all 0.4s cubic-bezier(0.23,1,0.32,1);
+				   -moz-transition: all 0.4s cubic-bezier(0.23,1,0.32,1);
+				     -o-transition: all 0.4s cubic-bezier(0.23,1,0.32,1);
+				        transition: all 0.4s cubic-bezier(0.23,1,0.32,1);
+				}
+			.mosaicflow__item:hover p {
+				opacity:1;
+				}
+	</style>
 	<title>Scary</title>
 </head>
 
 <body>
+	<p checked class="title" id="title">
 	<h1 class="title">Jack-in-the-Boxes Were Popular!</h1>
 	<h2 class="title">In Advertisements, Books, and Postcards</h2>
-	
+	</p>
 	<br/>
 
 <div class="clearfix mosaicflow">
 	<div class="mosaicflow__item">
 		<img width="200" height="" src="images/Emphemera_1715.png" alt="">
+		<p>It's Only Jack</p>
 	</div>
 	<div class="mosaicflow__item">
 		<img width="200" height="" src="images/E_1710.png" alt="">
+		<p>A Collection of Children's Stories, 1888<p>
 	</div>
 	<div class="mosaicflow__item">
 		<img width="200" height="" src="images/E_1711.png" alt="">
+		<p>A Halloween Postcard</p>
 	</div>
 	<div class="mosaicflow__item">
 		<img width="200" height="" src="images/E_1713.png" alt="">
+		<p>WW I Era Postcard</p>
 	</div>
 	<div class="mosaicflow__item">
 		<img width="200" height="" src="images/E_1714.png" alt="">
+		<p>A Real Life Postcard, Probably French</p>
 	</div>
 	<div class="mosaicflow__item">
 		<img width="200" height="" src="images/E_1716.png" alt="">
+		<p>Vegetine, a "Quack" Blood Purifier Tradecard</p>
 	</div>
 	<div class="mosaicflow__item">
 		<img width="200" height="" src="images/E_1718.png" alt="">
+		<p>A Tradecard for Pearline Soap</p>
 	</div>
 	<div class="mosaicflow__item">
 		<img width="200" height="" src="images/E_Campbell Kids_1717.png" alt="">
+		<p>A Postcard Advertising Campbell Soup</p>
 	</div>
 </div>
-
-<!--	
-	<section>	
-		<div>
-			<img src="scary/01.jpg" style="display: inline;">
-		</div>
-		<div>
-			<img src="scary/02.jpg" style="display: inline;">
-		</div>
-		<div>
-			<img src="scary/03.jpg" style="display: inline;">
-		</div>
-		<div>
-			<img src="scary/04.jpg" style="display: inline;">
-		</div>
-	</section>
-
-	<br/>
-
-	<section>
-		<div>
-			<img src="scary/05.jpg" style="display: inline;">
-		</div>
-		<div>
-			<img src="scary/06.jpg" style="display: inline;">
-		</div>
-		<div>
-			<img src="scary/07.jpg" style="display: inline;">
-		</div>
-		<div>
-			<img src="scary/08.jpg" style="display: inline;">
-		</div>
-	</section>
--->
 
 </body>
 </html>

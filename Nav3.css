@@ -1,19 +1,28 @@
 body {
+  display: block;
   margin: 0px 140px 0px 140px;
 }
 
 h1 {
-  font-family: Times, serif;
-  font-size: 36px;
-  color: blue;
+  font-family: 'Diplomata SC', cursive;
+  font-size: 48px;
+  color: #990000;
   text-align: center;
 }
 
 h2 {
-  font-family: Times, serif;
-  font-size: 24px;
-  color: red;
+  font-family: 'Spirax', cursive;
+  font-size: 36px;
+  color: solid black;
   text-align: center;
+}
+
+h3 {
+  font-family: 'Jacques Francois Shadow', cursive;
+  font-size: 18px;
+  color: black;
+  text-align: center;
+  vertical-align: middle;
 }
 
 /*
@@ -32,34 +41,3 @@ div img {
   display: none;
 }
 */
-.mosaicflow__column {
-  float:left;
-}
-
-.mosaicflow__item img {
-  display:block;
-  width:100%;
-  height:auto;
-}
-
-.mosaicflow__item p {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  margin: 0;
-  padding: 5px;
-  background: hsla(0,0%,0%,.5);
-  color: #fff;
-  font-size: 14px;
-  text-shadow: 1px 1px 1px hsla(0,0%,0%,.75);
-  opacity: 0;
-  -webkit-transition: all 0.4s cubic-bezier(0.23,1,0.32,1);
-  -moz-transition: all 0.4s cubic-bezier(0.23,1,0.32,1);
-  -o-transition: all 0.4s cubic-bezier(0.23,1,0.32,1);
-  transition: all 0.4s cubic-bezier(0.23,1,0.32,1);
-}
-
-.mosaicflow__item:hover p {
-    opacity:1;
-    }

@@ -1,40 +1,62 @@
 <!DOCTYPE html>
 <head>
-	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<link href='http://fonts.googleapis.com/css?family=Diplomata+SC|Jacques+Francois+Shadow|Spirax|Diplomata' rel='stylesheet' type='text/css'>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
     <link type="text/css" rel="stylesheet" href="Nav2.css">
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
-    <script language="javascript" content-type="application/javascript" src="Surprise.js" ></script>
+    <script language="javascript" content-type="application/javascript" src="Surprise.js" >
+    function $init() {return true;}
+    </script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="jquery.mosaicflow.min.js"></script>
+    <style>
+        .mosaicflow__column {
+            float:left;
+            }
 
+        .mosaicflow__item {
+            position:relative;
+            }
+            .mosaicflow__item img {
+                display:block;
+                width:100%;
+                max-width:500px;
+                height:auto;
+                }
+            .mosaicflow__item p {
+                position:absolute;
+                bottom:0;
+                left:0;
+                width:100%;
+                margin:0;
+                padding:5px;
+                background:hsla(0,0%,0%,.5);
+                color:#fff;
+                font-size:14px;
+                text-shadow:1px 1px 1px hsla(0,0%,0%,.75);
+                opacity:0;
+                -webkit-transition: all 0.4s cubic-bezier(0.23,1,0.32,1);
+                   -moz-transition: all 0.4s cubic-bezier(0.23,1,0.32,1);
+                     -o-transition: all 0.4s cubic-bezier(0.23,1,0.32,1);
+                        transition: all 0.4s cubic-bezier(0.23,1,0.32,1);
+                }
+            .mosaicflow__item:hover p {
+                opacity:1;
+                }
+    </style>
 	<title>Scary</title>
 </head>
 
 <body>
-	<h1 class="title">Holiday Jack-in-the-Boxes + Clowns!</h1>
+	<p checked class="title" id="title">
+    <h1 class="title">Holiday Jack-in-the-Boxes + Clowns!</h1>
 	<h2 class="title">Santa was Very Popular</h2>
-	
-	<br/>
-
-<!--	<section>	
-		<div>
-			<img src="scary/01.jpg" style="display: inline;">
-		</div>
-		<div>
-			<img src="images/H_santa_1639.png" style="display: inline;">
-		</div>
-		<div>
-			<img src="images/H_santa_1642.png" style="display: inline;">
-		</div>
-		<div>
-			<img src="scary/04.jpg" style="display: inline;">
-		</div>
-	</section>
+	</p>
 
 	<br/>
--->
+
 <div class="clearfix mosaicflow">
     <div class="mosaicflow__item">
         <img width="200" height="" src="images/H_santa_1661.png" alt="">

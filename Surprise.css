@@ -586,33 +586,35 @@ body {
 /* start of my stuff */
 
 body {
- 
 }
 
 .footer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  margin: 0;
   height: 50px;
   text-align: center;
   background-color: gray;
-
+  margin-left: -10px;
 }
 
 h1 {
-  font-family: Arial, sans-serif;
+  font-family: 'Diplomata SC', cursive;
   font-size: 48px;
-  color: blue;
+  color: #990000;
   text-align: center;
 }
 
 h2 {
-  font-family: Arial, sans-serif;
+  font-family: 'Spirax', cursive;
   font-size: 36px;
-  color: red;
+  color: solid black;
   text-align: center;
+}
+
+h3 {
+  font-family: 'Jacques Francois Shadow', cursive;
+  font-size: 18px;
+  color: black;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .hide {
@@ -623,31 +625,25 @@ h2 {
   min-height: 25px;
   font-family: Times, serif;
   font-size: 18px;
-  color: blue;
+  color: black;
   text-align: center;
+}
+
+.name7, .name8, .name9, .name10, .name11, .name12 {
+  min-height: 25px;
+  font-family: Times, serif;
+  font-size: 18px;
+  color: black;
+  text-align: center;
+  margin-top: 10px;
 }
 
 .nav1, .nav2, .nav3, .nav4, .nav5, .nav6 {
   min-height: 100px;
-  font-family: Times, serif;
-  font-size: 24px;
-  text-align: center;
   border: 2px;
-  border-color: 5px black;
-  border-radius: 10px;
+  border-color: black;
   background-color: transparent;
 }
-
-.placeholder1 {
-  min-height: 48px;
-  border: 5px black;
-}
-
-.placeholder2 {
-  min-height: 36px;
-  border: 5px black;
-}
-
 
 .text_1, .text_3 {
   min-height: 500px;
