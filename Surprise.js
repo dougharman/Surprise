@@ -67,8 +67,3 @@ $(document).ready(function () {
 
 
 
-
-});
-
-
-
