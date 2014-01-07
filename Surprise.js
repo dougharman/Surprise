@@ -1,5 +1,5 @@
 var loadedNum = 1;
-
+/*
 $(function(){
          var loaded = parseInt(localStorage.getItem('loaded'), 10);
          var loadedNum = loaded+1;
@@ -7,7 +7,7 @@ $(function(){
 
          console.log(loadedNum);
     });
-
+*/
 $(document).ready(function () {
    
     if (loadedNum > 1) {
@@ -15,8 +15,8 @@ $(document).ready(function () {
 
     } else {
         $(".text_1").fadeIn(1000);
-        $(".surprise").fadeIn(3000);
-        $(".jib").delay(1000).fadeIn(3000);
+        $(".surprise").fadeIn(2000);
+        $(".jib").fadeIn(2000);
 
         setInterval(function () {
             $(".nav1, .nav2, .nav3, .nav4, .nav5, .nav6").each(function(i) {
@@ -25,7 +25,7 @@ $(document).ready(function () {
             
             $(".name1, .name2, .name3, .name4, .name5, .name6").fadeIn(600);
 
-            }, 4000);
+            }, 1000);
 
 
         setInterval(function () {
@@ -35,12 +35,12 @@ $(document).ready(function () {
             
             $(".name7, .name8, .name9, .name10, .name11, .name12").fadeIn(600);
 
-            }, 4000);
+            }, 1000);
 
         setInterval(function () {
             $(".text_2, .text_3").fadeIn("slow");
 
-            }, 7000);
+            }, 4000);
     } 
 
 // Tooltip only Text
@@ -62,6 +62,11 @@ $(document).ready(function () {
             $('.tooltip')
             .css({ top: mousey, left: mousex })
     });
+
+});
+
+
+
 
 });
 

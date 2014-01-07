@@ -589,10 +589,14 @@ body {
 }
 
 .footer {
-  height: 50px;
   text-align: center;
   background-color: gray;
-  margin-left: -10px;
+}
+
+.footer p {
+  text-align: left;
+  color: white;
+  margin-left: 80px:;
 }
 
 h1 {
@@ -617,34 +621,6 @@ h3 {
   vertical-align: middle;
 }
 
-.hide {
-  display: none;
-}
-
-.name1, .name2, .name3, .name4, .name5, .name6 {
-  min-height: 25px;
-  font-family: Times, serif;
-  font-size: 18px;
-  color: black;
-  text-align: center;
-}
-
-.name7, .name8, .name9, .name10, .name11, .name12 {
-  min-height: 25px;
-  font-family: Times, serif;
-  font-size: 18px;
-  color: black;
-  text-align: center;
-  margin-top: 10px;
-}
-
-.nav1, .nav2, .nav3, .nav4, .nav5, .nav6 {
-  min-height: 100px;
-  border: 2px;
-  border-color: black;
-  background-color: transparent;
-}
-
 .text_1, .text_3 {
   min-height: 500px;
   font-size: 24px;
@@ -658,7 +634,7 @@ h3 {
 .text_2 {
   min-height: 500px;
   font-size: 24px;
-  text-align: center;
+  text-align: left;
   border: 2px;
   border-color: black;
   background-color: white;
